@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+  # Copy files from the 'source' to the 'destination' on the EC2 instance
+  - source: /Mosquito_finder/
+    destination: /home/ec2-user/myAPP/
